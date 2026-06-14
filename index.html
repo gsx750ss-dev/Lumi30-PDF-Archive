@@ -103,13 +103,14 @@
       align-items: center;
       gap: .45em;
       margin: .45rem 0 1rem;
-      padding: .38rem .72rem;
-      border-radius: 999px;
-      border: 1px solid var(--line, var(--border, currentColor));
-      background: var(--soft, var(--panel, Canvas));
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
       color: var(--text, CanvasText);
       font-weight: 800;
       font-size: .98rem;
+      box-shadow: none;
     }
 
     .square-return {
@@ -150,7 +151,7 @@
   <header class="hero">
     <div class="kicker">Stable downloadable records</div>
     <h1>Lumi30 PDF Archive</h1>
-      <div class="place-badge" aria-label="Current location">📦 PDF Archive</div>
+      <div class="place-badge">📦 PDF Archive</div>
 <a class="square-return" href="https://lumina-30.github.io/Lumi30-Index/">🧭 Return to Central Square</a>
     <p class="lead">Stable PDF artifact archive for citation, auditing, offline preservation, and fixed distribution copies. It is not the main conceptual entry point.</p>
   </header>
